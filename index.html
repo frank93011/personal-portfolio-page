@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <title>陳漢威 - 個人作品集</title>
+    <!-- <meta name="description" content="Portfolio with grid HTML5 and CSS3 modern simplicity style template. Check my portfolio. Download free now with file Photoshop!">
+    <meta name="keywords" content="thomsoon, simplicity, theme, html5, download, free psd">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="thomsoon.com"> -->
+    <link rel="icon" type="image/png" href="./file/image/black.png">
+
+    <!--Style-->
+
+    <link rel="stylesheet" href="./file/reset.css">
+    <link rel="stylesheet" href="./file/style.css">
+    <link rel="stylesheet" href="./file/style-responsive.css">
+    <!-- <link rel="stylesheet" href="./file/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+
+    <!--Preloader-->
+
+    <div class="preloader" id="preloader" style="display: none;">
+        <div class="item">
+            <div class="spinner">
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="opacity-nav">
+
+        <div class="menu-index" id="buttons" style="z-index:999999">
+            <i class="fa  fa-close"></i>
+        </div>
+
+        <ul class="menu-fullscreen">
+            <li><a class="ajax-link" href="http://www.thomsoon.com/thomsoon/single.html">Home</a></li>
+            <li><a class="ajax-link" href="http://www.thomsoon.com/thomsoon/projects.html">Projects</a></li>
+            <li><a class="ajax-link" href="http://www.thomsoon.com/thomsoon/about-us.html">About us</a></li>
+            <li><a class="ajax-link" href="http://www.thomsoon.com/thomsoon/contact.html">Contact</a></li>
+        </ul>
+
+    </div> -->
+
+
+    <!--Header-->
+    <header id="fullscreen" style="display: block;">
+
+        <div class="logo" id="full"><a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html">Cypheran X Workshop</a></div>
+
+        <!-- <div class="menu-index" id="button">
+            <i class="fa fa-bars"></i>
+        </div> -->
+
+    </header>
+
+    <div class="clear"></div>
+
+    <!--Content-->
+
+    <div class="content" id="ajax-content">
+
+
+        <div class="text-intro" id="site-type">
+
+            <h1>Digital Artwork and Practices</h1>
+            <h1 class="typewrite"><span>Project Cyber</span><span class="typed-cursor">|</span></h1>
+            <!--Change on script.js-->
+            <p>Ain't it fun? To livin' the real world.</p>
+
+        </div>
+
+
+        <!--Portfolio grid-->
+        <div class="title">
+            <h1> Project Cyber </h1>
+        </div>
+        <ul class="portfolio-grid" id="portfolio-sidebar" style="position: relative; height: 1012.56px;">
+
+
+            <li class="grid-item" style="position: absolute; left: 0px; top: 0px;">
+                <img src="./file/image/1.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/single.html">
+                    <div class="grid-hover">
+                        <h1>Glory & Sins</h1>
+                        <p>photoshop, afterEffect</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 390px; top: 0px;">
+                <img src="./file/image/5.jpeg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/single-fullscreen.html">
+                    <div class="grid-hover">
+                        <h1>Jungle</h1>
+                        <p>photoshop, afterEffect</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 0px; top: 305px;">
+                <img src="./file/image/2.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Rain</h1>
+                        <p>photoshop, afterEffect</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 390px; top: 404px;">
+                <img src="./file/image/3.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Encircle</h1>
+                        <p>photoshop, afterEffect</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 0px; top: 579px;">
+                <img src="./file/image/4.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Intruder</h1>
+                        <p>photoshop, afterEffect</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 390px; top: 709px;">
+                <img src="./file/image/6.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Mercy</h1>
+                        <p>photoshop, afterEffect</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 0px; top: 939px;">
+                <img src="./file/image/7.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/single-fullscreen.html">
+                    <div class="grid-hover">
+                        <h1>Sunset</h1>
+                        <p>photoshop, afterEffect</p>
+                    </div>
+                </a>
+            </li>
+
+        </ul>
+
+        <div class="title">
+            <h1> IM Camp Design </h1>
+        </div>
+
+        <ul class="portfolio-grid" id="portfolio-sidebar" style="position: relative; height: 1012.56px;">
+
+
+            <li class="grid-item" style="position: absolute; left: 0px; top: 0px;">
+                <img src="./file/image/a.png">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/single.html">
+                    <div class="grid-hover">
+                        <h1>Logo of NTU IM Camp</h1>
+                        <p>photoshop</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 390px; top: 0px;">
+                <img src="./file/image/b.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/single-fullscreen.html">
+                    <div class="grid-hover">
+                        <h1>High Tech Badge of Camp (Front)</h1>
+                        <p>photoshop</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 0px; top: 305px;">
+                <img src="./file/image/c.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>High Tech Badge of Camp (Back)</h1>
+                        <p>photoshop</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 390px; top: 404px;">
+                <img src="./file/image/d.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Main Website of IM Camp</h1>
+                        <p>photoshop</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 0px; top: 579px;">
+                <img src="./file/image/t1.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Commercial Photoshoot of IM Camp 1</h1>
+                        <p>photoshop</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 390px; top: 709px;">
+                <img src="./file/image/t2.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Commercial Photoshoot of IM Camp 2</h1>
+                        <p>photoshop</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 0px; top: 939px;">
+                <img src="./file/image/t3.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/single-fullscreen.html">
+                    <div class="grid-hover">
+                        <h1>Commercial Photoshoot of IM Camp 3</h1>
+                        <p>photoshop</p>
+                    </div>
+                </a>
+            </li>
+            <li class="grid-item" style="position: absolute; left: 0px; top: 939px;">
+                <img src="./file/image/t4.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/single-fullscreen.html">
+                    <div class="grid-hover">
+                        <h1>Commercial Photoshoot of IM Camp 4</h1>
+                        <p>photoshop</p>
+                    </div>
+                </a>
+            </li>
+            <li class="grid-item" style="position: absolute; left: 0px; top: 939px;">
+                <img src="./file/image/t5.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/single-fullscreen.html">
+                    <div class="grid-hover">
+                        <h1>Commercial Photoshoot of IM Camp 5</h1>
+                        <p>photoshop</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="title">
+            <h1> Magazine Design </h1>
+        </div>
+
+        <ul class="portfolio-grid" id="portfolio-sidebar" style="position: relative; height: 1012.56px;">
+
+
+            <li class="grid-item" style="position: absolute; left: 0px; top: 0px;">
+                <img src="./file/image/8.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/single.html">
+                    <div class="grid-hover">
+                        <h1>My Works Shows Up at The Marketplace!(prank)</h1>
+                        <p>photoshop</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 390px; top: 0px;">
+                <img src="./file/image/9.jpeg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/single-fullscreen.html">
+                    <div class="grid-hover">
+                        <h1>Flowers X Cities</h1>
+                        <p>photoshop</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 0px; top: 305px;">
+                <img src="./file/image/10.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Traveler Magazine</h1>
+                        <p>photoshop</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 390px; top: 404px;">
+                <img src="./file/image/11.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Not A Hero Magazine</h1>
+                        <p>photoshop</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 0px; top: 579px;">
+                <img src="./file/image/12.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Cypheran X Workshop Art Book</h1>
+                        <p>photoshop</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 390px; top: 709px;">
+                <img src="./file/image/13.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Bordless Retry</h1>
+                        <p>C4d, photoshop, Prisma</p>
+                    </div>
+                </a>
+            </li>
+            <li class="grid-item" style="position: absolute; left: 0px; top: 579px;">
+                <img src="./file/image/14.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Book Of The X</h1>
+                        <p>photoshop</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 390px; top: 709px;">
+                <img src="./file/image/15.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Pink Mist</h1>
+                        <p>photoshop</p>
+                    </div>
+                </a>
+            </li>
+
+        </ul>
+        <div class="title">
+            <h1> 3D Design </h1>
+        </div>
+
+        <ul class="portfolio-grid" id="portfolio-sidebar" style="position: relative; height: 1012.56px;">
+
+
+            <li class="grid-item" style="position: absolute; left: 0px; top: 0px;">
+                <img src="./file/image/d1.jpeg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/single.html">
+                    <div class="grid-hover">
+                        <h1>Fallen Valley 1</h1>
+                        <p>C4D</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 390px; top: 0px;">
+                <img src="./file/image/d2.jpeg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/single-fullscreen.html">
+                    <div class="grid-hover">
+                        <h1>Fallen Valley 2</h1>
+                        <p>C4D</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 0px; top: 305px;">
+                <img src="./file/image/d3.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Flower Of The Creater</h1>
+                        <p>C4D</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 390px; top: 404px;">
+                <img src="./file/image/d4.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Flower Of The Creater 2</h1>
+                        <p>C4D</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 0px; top: 579px;">
+                <img src="./file/image/d5.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Sphere Party1</h1>
+                        <p>C4D</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 390px; top: 709px;">
+                <img src="./file/image/d6.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Sphere Party2</h1>
+                        <p>C4D</p>
+                    </div>
+                </a>
+            </li>
+            <li class="grid-item" style="position: absolute; left: 0px; top: 579px;">
+                <img src="./file/image/d7.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>The Last Ritual</h1>
+                        <p>C4D, Rhino 6</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="grid-item" style="position: absolute; left: 390px; top: 709px;">
+                <img src="./file/image/d8.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Waterfall Of Light 1</h1>
+                        <p>C4D</p>
+                    </div>
+                </a>
+            </li>
+            <li class="grid-item" style="position: absolute; left: 390px; top: 709px;">
+                <img src="./file/image/d9.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Waterfall Of Light 2</h1>
+                        <p>C4D</p>
+                    </div>
+                </a>
+            </li>
+            <li class="grid-item" style="position: absolute; left: 390px; top: 709px;">
+                <img src="./file/image/d10.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Torii of Osaka</h1>
+                        <p>Rhino 6, C4D</p>
+                    </div>
+                </a>
+            </li>
+            <li class="grid-item" style="position: absolute; left: 390px; top: 709px;">
+                <img src="./file/image/d11.jpg">
+                <a class="ajax-link" href="http://www.thomsoon.com/thomsoon/index.html#">
+                    <div class="grid-hover">
+                        <h1>Echo</h1>
+                        <p>C4D, photoshop</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    </div>
+
+    <!--Home Sidebar-->
+
+    <div id="ajax-sidebar">
+
+        <div class="home-sidebar" style="background-image: url(&quot;img/home-sidebar.jpg&quot;); opacity: 0.75;" id="hero">
+
+            <div class="parallax-option" data-jkit="[parallax:strength=0.8;axis=both]">
+
+                <div class="parallax parallax1" style=" left: -326.615px; top: -748.94px;"><img class="parallax-image" src="./file/image/black.png"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--Footer-->
+
+    <footer>
+
+        <div class="footer-margin">
+            <div class="social-footer">
+                <a href="https://www.facebook.com/herofrank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/cypheran_x_workshop/"><i class="fa fa-instagram"></i></a>
+
+            </div>
+            <div class="copyright">See more motion artwork on my instagram above @cypheran_x_workshop.</div>
+
+
+
+        </div>
+
+
+    </footer>
+
+
+
+    <!--Scripts-->
+
+    <script src="./file/jquery.min.js.下載"></script>
+    <script src="./file/jquery.easing.min.js.下載"></script>
+    <script src="./file/modernizr.custom.42534.js.下載" type="text/javascript"></script>
+    <script src="./file/jquery.waitforimages.js.下載" type="text/javascript"></script>
+    <script src="./file/typed.js.下載" type="text/javascript"></script>
+    <script src="./file/masonry.pkgd.min.js.下載" type="text/javascript"></script>
+    <script src="./file/imagesloaded.pkgd.min.js.下載" type="text/javascript"></script>
+    <script src="./file/jquery.jkit.1.2.16.min.js.下載"></script>
+
+    <script src="./file/script.js.下載" type="text/javascript"></script>
+
+    <script>
+        $('#button, #buttons').on('click', function() {
+            $(".opacity-nav").fadeToggle("slow", "linear");
+            // Animation complete.
+        });
+    </script>
+
+
+
+</body>
+
+</html>
