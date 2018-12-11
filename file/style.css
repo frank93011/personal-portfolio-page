@@ -482,14 +482,14 @@ HOME SIDEBAR
 */
 
 .home-sidebar {
-    top: 50px;
+    top: 0;
     position: absolute;
-    width: 20%;
-    right: 250px;
-    height: 50%;
+    width: 35%;
+    right: 0;
+    height: 77.5%;
     background: #ffffff;
-    z-index: 9;
-    /* overflow: hidden; */
+    z-index: -1;
+    /*overflow: hidden;*/
     background-size: 50%;
 }
 
@@ -502,6 +502,11 @@ HOME SIDEBAR
     height: 100%;
 }
 
+.parallax parralax2 {
+    top: 100px;
+    right: 100px;
+}
+
 .parallax-option {
     position: absolute;
     width: 100%;
@@ -509,8 +514,8 @@ HOME SIDEBAR
 }
 
 .parallax-image {
-    width: 150%;
-    height: 150%;
+    width: 110%;
+    height: 110%;
 }
 
 
